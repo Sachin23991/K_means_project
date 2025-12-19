@@ -119,7 +119,7 @@ Cluster | Income (k$) | Spending Score | Avg Age
 - Incorporates Income, Spending Score, and Age
 - Provides deeper demographic insights
 - 
-![3D Scatter Plot](3dkmeans.png)
+![3D Scatter Plot](3dkmenas.png)
 
 ### 6. Cluster Characteristics Heatmap
 - Normalized heatmap of Age, Income, Spending Score
