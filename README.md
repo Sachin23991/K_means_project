@@ -92,24 +92,34 @@ Cluster | Income (k$) | Spending Score | Avg Age
 ### 1. Elbow Method Curve
 - Shows WCSS vs Number of Clusters
 - Clear elbow point at k=5 indicates optimal clustering
+- 
+![Elbow Method for Optimal K](elbowmethod.png)
 
 ### 2. 2D Scatter Plot with Centroids
 - Displays all 5 clusters in Income vs Spending Score space
 - Red X markers show cluster centroids
 - Clear visual separation between clusters
+- 
+![2D Scatter Plot with Centroids](Kmeansclustering.png)
 
 ### 3. Cluster Distribution Pie Chart
 - Shows proportion of customers in each cluster
 - Cluster 0 dominates with 40.5% of customers
+- 
+![Cluster Distribution](summary.png)
 
 ### 4. Silhouette Analysis
 - Score of 0.5539 indicates reasonable cluster quality
 - Values close to 1 = well-separated clusters
 - Our score shows moderate but acceptable separation
+- 
+![Silhouette Analysis](statistics.png)
 
 ### 5. 3D Scatter Plot
 - Incorporates Income, Spending Score, and Age
 - Provides deeper demographic insights
+- 
+![3D Scatter Plot](3dkmeans.png)
 
 ### 6. Cluster Characteristics Heatmap
 - Normalized heatmap of Age, Income, Spending Score
